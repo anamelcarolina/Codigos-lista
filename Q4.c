@@ -4,9 +4,7 @@ int main(){
 
     char nivel;
     double dinheiro;
-    printf("Insira o nivel de experiencia do funcionario entre a, b e c: \n");
     scanf("%c", &nivel);
-    printf("Insira o salario do funcionario: \n");
     scanf("%lf", &dinheiro);
     switch (nivel) {
         case 'a':
